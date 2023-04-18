@@ -164,6 +164,7 @@ containerSecurityContext:
   enabled: true
   readOnlyRootFilesystem: true
   runAsNonRoot: true
+  allowPrivilegeEscalation: false
   runAsUser: 1001
   capabilities:
     drop:
